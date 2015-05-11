@@ -1,0 +1,10 @@
+var mongo   = require('./mongo');
+
+
+mongo.db.then(function(db) {
+
+  console.log('db connect', db);
+
+
+});
+
